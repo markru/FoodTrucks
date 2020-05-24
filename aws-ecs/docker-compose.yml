@@ -15,7 +15,7 @@ services:
         awslogs-region: us-east-1
         awslogs-stream-prefix: es
   web:
-    image: prakhar1989/foodtrucks-web
+    image: markru/foodtrucks-web
     cpu_shares: 100
     mem_limit: 262144000
     ports:
